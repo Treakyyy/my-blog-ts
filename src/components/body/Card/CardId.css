@@ -1,0 +1,19 @@
+.containerCardId{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.containerButtonCardId{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.CardIdBody{
+    width: 75%;
+}
+.buttonBack{
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}

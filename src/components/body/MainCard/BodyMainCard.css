@@ -1,0 +1,17 @@
+.CardTitle{
+    font-weight: bold;
+    width: 300px;
+}
+.ContainerBodyTitle{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.ContainerBodyMainCard{
+    margin: 10px;
+    padding: 10px;
+}
+.btn{
+    display: flex;
+    justify-content: flex-end;
+}

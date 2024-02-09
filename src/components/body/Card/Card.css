@@ -1,0 +1,37 @@
+.ContainerSecondaryCards{
+    display: flex;
+    flex-direction: column;
+    box-shadow: 5px 5px 5px 5px #F4F4F4;
+    border: 1px solid #F4F4F4;
+    margin: 10px;
+    padding: 25px;
+    border-radius: 15px;
+}
+.CardImg{
+    width: 300px;
+    height: 200px;
+}
+.ConteinerCardButton{
+    display: flex;
+    justify-content: space-between;
+}
+.ConteinerCardElement{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    width: 75%;
+}
+.ConteinerCard{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    width: 75%;
+}
+input{
+    padding: 6px;
+    width: 64%;
+    height: Fixed (48px);
+    border-radius: 6px;
+}

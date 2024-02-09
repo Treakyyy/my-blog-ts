@@ -1,0 +1,18 @@
+.BtnLikeAndDislike{
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+.ContainerBtnLikeAndDislike{
+    display: flex;
+    gap: 1rem;
+}
+.StyleImgLikeAndDislike{
+    width: 25px;
+    height: 25px;
+}
+.containerCount{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}

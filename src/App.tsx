@@ -1,25 +1,19 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import MainPage from './components/mainPage/MainPage';
+import {HashRouter, Route, Routes} from 'react-router-dom'
+import CardId from './components/body/Card/CardId';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <HashRouter basename='/'>
+      <div className="App">
+        <Routes>
+          <Route path='/' element={<MainPage/>}/>
+          <Route path='/blog/:id' element={<CardId/>}/>
+        </Routes>
+      </div>
+    </HashRouter>
   );
 }
 
